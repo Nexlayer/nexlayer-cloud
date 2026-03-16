@@ -132,26 +132,16 @@ That's it. One command. Your agent handles the rest.
 
 ---
 
-## What's Running on Nexlayer Right Now
+## Ship Anything
 
-Real apps. Real production traffic. Real developers shipping every day.
+| Stack | What's in it |
+|-------|--------------|
+| **Real-time Platform** | Vue/Nuxt frontend · Go/gRPC API · MySQL · RabbitMQ |
+| **ML Pipeline** | Svelte dashboard · Python/Flask API · PostgreSQL · PyTorch/CUDA GPU worker |
+| **Mobile Backend** | Ruby/Rails API · PostgreSQL · MinIO S3 storage · Sidekiq/Redis workers |
+| **E-commerce** | Next.js/React/Tailwind frontend · Node/Express/TypeScript API · PostgreSQL/Prisma · Redis cache |
 
-```
-┌────────────────────────────────────────────────────────────────┐
-│  STACK DIVERSITY (from live deployments)                       │
-├────────────────────────────────────────────────────────────────┤
-│                                                                │
-│  Node.js    ████████████████████████░░░░░░░░  42%             │
-│  Python     ██████████████░░░░░░░░░░░░░░░░░░  28%             │
-│  Go         ██████░░░░░░░░░░░░░░░░░░░░░░░░░░  12%             │
-│  Rust       ████░░░░░░░░░░░░░░░░░░░░░░░░░░░░   8%             │
-│  Other      █████░░░░░░░░░░░░░░░░░░░░░░░░░░░  10%             │
-│             (Java, C#, PHP, Ruby, Elixir)                     │
-│                                                                │
-└────────────────────────────────────────────────────────────────┘
-```
-
-**Supported stacks:** Node.js • Python • Go • Rust • Java Spring • C# ASP.NET • PHP Laravel • Ruby • Elixir • Any Docker container
+Any stack. Any language. Any container. If it runs, it ships.
 
 ---
 
