@@ -77,47 +77,48 @@ Traditional cloud: You write infrastructure code → You debug infrastructure co
 
 ---
 
-## What's Under the Hood
+## What Lives Under the Hood
 
-Your agent talks to Nexlayer. Three specialized agents do the rest.
+Three specialized agents — each with a single job — sit between your coding agent and your production infrastructure. One protocol connects them all.
 
 ```mermaid
 flowchart TB
-    subgraph coding["🤖 YOUR AI CODING AGENT"]
+    subgraph coding["AI coding agent"]
         tools["Claude Code · Cursor · Windsurf · VS Code · Claude Desktop · Antigravity"]
     end
 
-    coding -->|"Nexlayer Agent Connector"| protocol
+    coding -->|"Nexlayer Agent Protocol"| protocol
 
-    subgraph protocol["⚡ NEXLAYER AGENT CONNECTOR"]
-        desc["One connection. Deploys, debugs, and manages production — no config, no human in the loop."]
+    subgraph protocol["Nexlayer Agent Protocol"]
+        desc["Your agent's native language for deployment, debugging, and production ops — no human in the loop"]
     end
 
     protocol --> deploy
     protocol --> debug
     protocol --> ops
 
-    subgraph deploy["🚀 DEPLOY AGENT"]
-        d1["<b>Ships it</b><br/>Any stack · Any language<br/>Containers auto-built<br/>Live URL in minutes"]
+    subgraph deploy["DEPLOY AGENT"]
+        d1["<b>Ships your app</b><br/>Any stack · Any language<br/>Containers built and deployed automatically"]
     end
 
-    subgraph debug["🔍 DEBUG AGENT"]
-        db1["<b>Sees inside it</b><br/>Live shell access<br/>Real-time logs · DB queries<br/>File inspection"]
+    subgraph debug["DEBUG AGENT"]
+        db1["<b>Sees inside production</b><br/>Live shell · Real-time logs<br/>DB queries · File inspection"]
     end
 
-    subgraph ops["🛡️ OPS AGENT"]
-        o1["<b>Keeps it running</b><br/>Auto-scales · Self-heals<br/>Monitors 24/7<br/>Zero downtime deploys"]
+    subgraph ops["OPS AGENT"]
+        o1["<b>Keeps it running</b><br/>Auto-scale · Self-heal<br/>Monitor · Zero-downtime deploys"]
     end
 
     deploy --> cloud
     debug --> cloud
     ops --> cloud
 
-    subgraph cloud["☁️ NEXLAYER PRODUCTION CLOUD"]
-        features["no cold starts · load balancing · SSL everywhere<br/>isolated namespaces · custom domains · persistent storage<br/>RBAC security · spend limits"]
+    subgraph cloud["Nexlayer Production Cloud"]
+        features["no cold starts · auto-scaling · self-healing · zero-downtime deploys · load balancing<br/>custom domains · SSL · persistent storage"]
     end
 ```
 
+*Your coding agent sees one connection and one result. The three agents handle all complexity internally — your context window stays clean, your shipping loop stays fast.*
 
 ---
 
