@@ -189,13 +189,16 @@ Real apps. Real production traffic. Real developers shipping every day.
 
 ## Use Cases
 
-| What You're Building | How Nexlayer Helps |
-|---------------------|-------------------|
-| **AI/ML Apps** | You built something with an LLM. You need it running 24/7. Done. |
-| **SaaS Products** | Every customer gets their own environment. You don't manage any of them. |
-| **Internal Tools** | Deploy on every PR. Tear it down when merged. Fully automatic. |
-| **Startups** | Start free. Scale to millions. Never re-platform. |
-| **Agencies** | Spin up client environments in seconds. Bill per-project. |
+| Who you are | What you ship on Nexlayer |
+|-------------|---------------------------|
+| **Vibe coder** | Your AI-built app goes from "works on my machine" to live URL — without touching a terminal |
+| **Indie hacker** | Ship your MVP tonight. Handle the Hacker News spike tomorrow. Never re-platform. |
+| **AI/LLM builder** | Agent SDKs, RAG pipelines, custom models, Claude/OpenAI wrappers — long-running, always-on, no cold starts |
+| **MCP server developer** | Build and host your MCP server in one place. Your agent deploys it. |
+| **Freelancer** | Every client gets their own environment. You bill for building, not DevOps. |
+| **Startup founder** | Production-grade from day one. Your investor gets a real link, not a localhost screenshot. |
+| **Designer / PM** | You learned to code with AI. Now you can ship too. |
+| **Open source self-hoster** | n8n, Supabase, Ghost, Metabase — your data, your infra, a fraction of SaaS cost. |
 
 **[Explore all use cases →](https://nexlayer.com/resources/use-cases)**
 
