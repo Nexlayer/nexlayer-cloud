@@ -160,7 +160,7 @@ Then just tell your assistant: *"Deploy this to Nexlayer"*
 
 That's it. One command. Your agent handles the rest.
 
-**[Full documentation →](https://nexlayer.com/docs)**
+**[Quickstart guide →](https://nexlayer.com/docs/quickstart)**
 
 ---
 
@@ -206,9 +206,14 @@ Real apps. Real production traffic. Real developers shipping every day.
 
 | Resource | Description |
 |----------|-------------|
-| [**Documentation**](https://nexlayer.com/docs) | Complete guides, API reference, tutorials |
+| [**Quickstart**](https://nexlayer.com/docs/quickstart) | Get deployed in under 5 minutes |
+| [**MCP Setup**](https://nexlayer.com/docs/mcp/overview) | Connect your AI coding assistant |
+| [**Claude Code Setup**](https://nexlayer.com/docs/mcp/claude-code) | Setup guide for Claude Code |
+| [**Cursor Setup**](https://nexlayer.com/docs/mcp/cursor) | Setup guide for Cursor |
+| [**Configuration**](https://nexlayer.com/docs/deployments/configuration) | nexlayer.yaml reference |
+| [**Custom Domains**](https://nexlayer.com/docs/deployments/custom-domains) | Use your own domain |
+| [**For AI Agents**](https://nexlayer.com/docs/agents/overview) | Build agents that deploy |
 | [**Templates**](https://nexlayer.com/resources/templates) | Pre-built stacks: Next.js, FastAPI, Rails, and more |
-| [**Use Cases**](https://nexlayer.com/resources/use-cases) | Real-world examples and architectures |
 | [**Changelog**](https://nexlayer.com/resources/changelog) | What's new and what's next |
 | [**Community Slack**](https://join.slack.com/t/nexlayercommunity/shared_invite/zt-3ns0038s0-16GWdSAD1aPdyxDzmbGaiw) | Get help, share feedback, connect with the team |
 
