@@ -260,5 +260,5 @@ Yes. The Nexlayer Agent Protocol is built on [Model Context Protocol (MCP)](http
 </p>
 
 <p align="center">
-  <sub>Built for developers who'd rather ship products than manage infrastructure.</sub>
+  <sub>Built for agents first. AI-native builders ship faster, easier, and safer than ever before.</sub>
 </p>
