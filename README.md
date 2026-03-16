@@ -150,7 +150,6 @@ Agents monitor traffic patterns and scale automatically. No capacity planning. N
 
 ## Quick Start
 
-### Option 1: MCP Integration (Recommended)
 Connect Nexlayer to your AI coding assistant:
 
 ```bash
@@ -159,16 +158,7 @@ npx @nexlayer/mcp-install
 
 Then just tell your assistant: *"Deploy this to Nexlayer"*
 
-### Option 2: Dashboard
-1. Go to [nexlayer.com](https://nexlayer.com)
-2. Connect your GitHub repo
-3. Click deploy
-
-### Option 3: CLI
-```bash
-npm install -g @nexlayer/cli
-nexlayer deploy
-```
+That's it. One command. Your agent handles the rest.
 
 **[Full documentation →](https://nexlayer.com/docs)**
 
