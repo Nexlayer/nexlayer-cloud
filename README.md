@@ -220,5 +220,5 @@ Yes. The Nexlayer Agent Protocol is built on [Model Context Protocol (MCP)](http
 </p>
 
 <p align="center">
-  <sub>The cloud built for the AI agent era.</sub>
+  <sub>The cloud built for the agent era.</sub>
 </p>
