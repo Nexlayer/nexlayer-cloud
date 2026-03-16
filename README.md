@@ -81,42 +81,9 @@ Traditional cloud: You write infrastructure code → You debug infrastructure co
 
 Three specialized agents — each with a single job — sit between your coding agent and your production infrastructure. One protocol connects them all.
 
-```mermaid
-flowchart TB
-    subgraph coding["AI coding agent"]
-        tools["Claude Code · Cursor · Windsurf · VS Code · Claude Desktop · Antigravity"]
-    end
-
-    coding -->|"Nexlayer Agent Protocol"| protocol
-
-    subgraph protocol["Nexlayer Agent Protocol"]
-        desc["Your agent's native language for deployment, debugging, and production ops — no human in the loop"]
-    end
-
-    protocol --> deploy
-    protocol --> debug
-    protocol --> ops
-
-    subgraph deploy["DEPLOY AGENT"]
-        d1["<b>Ships your app</b><br/>Any stack · Any language<br/>Containers built and deployed automatically"]
-    end
-
-    subgraph debug["DEBUG AGENT"]
-        db1["<b>Sees inside production</b><br/>Live shell · Real-time logs<br/>DB queries · File inspection"]
-    end
-
-    subgraph ops["OPS AGENT"]
-        o1["<b>Keeps it running</b><br/>Auto-scale · Self-heal<br/>Monitor · Zero-downtime deploys"]
-    end
-
-    deploy --> cloud
-    debug --> cloud
-    ops --> cloud
-
-    subgraph cloud["Nexlayer Production Cloud"]
-        features["no cold starts · auto-scaling · self-healing · zero-downtime deploys · load balancing<br/>custom domains · SSL · persistent storage"]
-    end
-```
+<p align="center">
+  <img src="assets/architecture.svg" alt="Nexlayer Architecture - AI coding agent connects via Nexlayer Agent Protocol to Deploy, Debug, and Ops agents running on Nexlayer Production Cloud" width="100%">
+</p>
 
 *Your coding agent sees one connection and one result. The three agents handle all complexity internally — your context window stays clean, your shipping loop stays fast.*
 

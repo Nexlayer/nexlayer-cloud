@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 620" width="800">
+  <defs>
+    <style>
+      .bg { fill: #1a1a2e; }
+      .layer-ai-fill { fill: #2d2b6b; }
+      .layer-ai-stroke { stroke: #6b63d4; stroke-width: 1.5; }
+      .layer-proto-fill { fill: #0d2d4a; }
+      .layer-proto-stroke { stroke: #2a7ab5; stroke-width: 1.5; }
+      .agent-deploy-fill { fill: #0d3326; }
+      .agent-deploy-stroke { stroke: #1d9e75; stroke-width: 1.5; }
+      .agent-debug-fill { fill: #3a2200; }
+      .agent-debug-stroke { stroke: #c47a15; stroke-width: 1.5; }
+      .agent-ops-fill { fill: #3a1208; }
+      .agent-ops-stroke { stroke: #c04020; stroke-width: 1.5; }
+      .cloud-fill { fill: #1e1e1e; }
+      .cloud-stroke { stroke: #444; stroke-width: 1.5; }
+      .pill-fill { fill: #2a2a2a; }
+      .pill-stroke { stroke: #555; stroke-width: 1; }
+
+      .t-ai-title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 18px; font-weight: 600; fill: #a8a3f0; text-anchor: middle; }
+      .t-ai-sub { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 12px; fill: #7870c8; text-anchor: middle; }
+      .t-proto-title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 18px; font-weight: 600; fill: #5aabdf; text-anchor: middle; }
+      .t-proto-sub { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 12px; fill: #4a8ab0; text-anchor: middle; }
+      .t-connector { font-family: 'Courier New', monospace; font-size: 11px; fill: #555; text-anchor: middle; }
+      .t-arrow { font-family: sans-serif; font-size: 16px; fill: #555; text-anchor: middle; }
+
+      .t-deploy-tag { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 10px; font-weight: 600; fill: #1d9e75; text-anchor: middle; letter-spacing: 1.5px; }
+      .t-deploy-title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 16px; font-weight: 600; fill: #4ecba0; text-anchor: middle; }
+      .t-deploy-body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 12px; fill: #1d9e75; text-anchor: middle; }
+
+      .t-debug-tag { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 10px; font-weight: 600; fill: #c47a15; text-anchor: middle; letter-spacing: 1.5px; }
+      .t-debug-title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 16px; font-weight: 600; fill: #e8a830; text-anchor: middle; }
+      .t-debug-body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 12px; fill: #c47a15; text-anchor: middle; }
+
+      .t-ops-tag { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 10px; font-weight: 600; fill: #c04020; text-anchor: middle; letter-spacing: 1.5px; }
+      .t-ops-title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 16px; font-weight: 600; fill: #e06040; text-anchor: middle; }
+      .t-ops-body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 12px; fill: #c04020; text-anchor: middle; }
+
+      .t-cloud-title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 17px; font-weight: 600; fill: #e0e0e0; text-anchor: middle; }
+      .t-pill { font-family: 'Courier New', monospace; font-size: 11px; fill: #888; text-anchor: middle; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="620" rx="16" class="bg"/>
+
+  <!-- AI Coding Agent layer -->
+  <rect x="24" y="24" width="752" height="72" rx="10" class="layer-ai-fill layer-ai-stroke"/>
+  <text x="400" y="56" class="t-ai-title">AI coding agent</text>
+  <text x="400" y="78" class="t-ai-sub">Claude Code · Cursor · Windsurf · VS Code · Claude Desktop · Antigravity</text>
+
+  <!-- Connector 1 -->
+  <text x="400" y="113" class="t-arrow">↓</text>
+  <text x="440" y="113" class="t-connector">Nexlayer Agent Protocol</text>
+
+  <!-- Protocol layer -->
+  <rect x="24" y="122" width="752" height="72" rx="10" class="layer-proto-fill layer-proto-stroke"/>
+  <text x="400" y="154" class="t-proto-title">Nexlayer Agent Protocol</text>
+  <text x="400" y="176" class="t-proto-sub">Your agent's native language for deployment, debugging, and production ops — no human in the loop</text>
+
+  <!-- Connector 2 -->
+  <text x="400" y="213" class="t-arrow">↓</text>
+
+  <!-- Three agent cards -->
+
+  <!-- Deploy Agent -->
+  <rect x="24" y="222" width="234" height="190" rx="10" class="agent-deploy-fill agent-deploy-stroke"/>
+  <text x="141" y="255" class="t-deploy-tag">DEPLOY AGENT</text>
+  <text x="141" y="280" class="t-deploy-title">Ships your app</text>
+  <text x="141" y="305" class="t-deploy-body">Any stack · Any language</text>
+  <text x="141" y="323" class="t-deploy-body">Containers built and</text>
+  <text x="141" y="341" class="t-deploy-body">deployed automatically</text>
+  <text x="141" y="365" class="t-deploy-body">Live URL in minutes</text>
+
+  <!-- Debug Agent -->
+  <rect x="283" y="222" width="234" height="190" rx="10" class="agent-debug-fill agent-debug-stroke"/>
+  <text x="400" y="255" class="t-debug-tag">DEBUG AGENT</text>
+  <text x="400" y="280" class="t-debug-title">Sees inside it</text>
+  <text x="400" y="305" class="t-debug-body">Live shell access</text>
+  <text x="400" y="323" class="t-debug-body">Real-time logs</text>
+  <text x="400" y="341" class="t-debug-body">DB queries</text>
+  <text x="400" y="359" class="t-debug-body">File inspection</text>
+
+  <!-- Ops Agent -->
+  <rect x="542" y="222" width="234" height="190" rx="10" class="agent-ops-fill agent-ops-stroke"/>
+  <text x="659" y="255" class="t-ops-tag">OPS AGENT</text>
+  <text x="659" y="280" class="t-ops-title">Keeps it running</text>
+  <text x="659" y="305" class="t-ops-body">Auto-scales</text>
+  <text x="659" y="323" class="t-ops-body">Self-heals</text>
+  <text x="659" y="341" class="t-ops-body">Monitors 24/7</text>
+  <text x="659" y="359" class="t-ops-body">Zero-downtime deploys</text>
+
+  <!-- Connector 3 -->
+  <text x="400" y="432" class="t-arrow">↓</text>
+
+  <!-- Production Cloud -->
+  <rect x="24" y="442" width="752" height="154" rx="10" class="cloud-fill cloud-stroke"/>
+  <text x="400" y="476" class="t-cloud-title">Nexlayer Production Cloud</text>
+
+  <!-- Pills row 1 -->
+  <!-- no cold starts -->
+  <rect x="44" y="492" width="126" height="26" rx="6" class="pill-fill pill-stroke"/>
+  <text x="107" y="509" class="t-pill">no cold starts</text>
+
+  <!-- auto-scaling -->
+  <rect x="180" y="492" width="104" height="26" rx="6" class="pill-fill pill-stroke"/>
+  <text x="232" y="509" class="t-pill">auto-scaling</text>
+
+  <!-- self-healing -->
+  <rect x="294" y="492" width="100" height="26" rx="6" class="pill-fill pill-stroke"/>
+  <text x="344" y="509" class="t-pill">self-healing</text>
+
+  <!-- zero-downtime deploys -->
+  <rect x="404" y="492" width="162" height="26" rx="6" class="pill-fill pill-stroke"/>
+  <text x="485" y="509" class="t-pill">zero-downtime deploys</text>
+
+  <!-- load balancing -->
+  <rect x="576" y="492" width="112" height="26" rx="6" class="pill-fill pill-stroke"/>
+  <text x="632" y="509" class="t-pill">load balancing</text>
+
+  <!-- Pills row 2 -->
+  <!-- custom domains -->
+  <rect x="138" y="528" width="124" height="26" rx="6" class="pill-fill pill-stroke"/>
+  <text x="200" y="545" class="t-pill">custom domains</text>
+
+  <!-- SSL -->
+  <rect x="272" y="528" width="54" height="26" rx="6" class="pill-fill pill-stroke"/>
+  <text x="299" y="545" class="t-pill">SSL</text>
+
+  <!-- persistent storage -->
+  <rect x="336" y="528" width="140" height="26" rx="6" class="pill-fill pill-stroke"/>
+  <text x="406" y="545" class="t-pill">persistent storage</text>
+
+  <!-- RBAC security -->
+  <rect x="486" y="528" width="112" height="26" rx="6" class="pill-fill pill-stroke"/>
+  <text x="542" y="545" class="t-pill">RBAC security</text>
+
+  <!-- spend limits -->
+  <rect x="608" y="528" width="92" height="26" rx="6" class="pill-fill pill-stroke"/>
+  <text x="654" y="545" class="t-pill">spend limits</text>
+
+  <!-- Footer text -->
+  <text x="400" y="582" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" fill="#444" text-anchor="middle">Built on Model Context Protocol (MCP) · Extended with Nexlayer's embedded agent layer · nexlayer.com</text>
+
+</svg>
