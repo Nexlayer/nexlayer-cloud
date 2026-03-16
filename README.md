@@ -118,7 +118,6 @@ flowchart TB
     end
 ```
 
-Built on [Model Context Protocol (MCP)](https://www.anthropic.com/news/model-context-protocol) — extended with Nexlayer's embedded agent layer. When your coding agent says "deploy this," the protocol understands context, coordinates specialized agents, and handles the entire lifecycle autonomously.
 
 ---
 
